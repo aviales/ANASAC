@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <title>the horizon pool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384- 
+    B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.png">
+
+
+</head>
+<header class="sticky-top">
+    <nav class="navbar  navbar-expand-sm bg-transparent navbar-dark">
+        <ul class="navbar-nav container">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="natacion.html">QUE ES LA NATACION?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="beneficios.html">BENEFICIOS DE LA NATACION</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ESTILOS</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="crawl.html">CRAWL</a>
+                    <a class="dropdown-item" href="pecho.html">PECHO</a>
+                    <a class="dropdown-item" href="espalda.html">ESPALDA</a>
+                    <a class="dropdown-item" href="mariposa.html">MARIPOSA</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <!--END-->
+    <div class="row">
+        <div class="col-lg-12 log">
+            <h3 class="text-center" style="color: white;" id="R_t">FEEL YOUR INFOR BEFORE PROCEEDING TO THE BOOKING SECTION</h3>
+            <form class="fom">
+                <div class="form-group">
+                    <label style="color:white">Name</label>
+                    <input type="text" placeholder="name" class="form-control" id="nameO" required>
+                </div>
+
+                <!-- <div class="form-group">
+            <label style="color: white;">Location</label>
+            <input type="text" placeholder="location"  class="form-control" id="loc" required>
+          </div> -->
+
+                <div class="form-group">
+                    <label style="color: white;">Phone number</label>
+                    <input type="number" placeholder="phone number" class="form-control" required>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
+    <!--END-->
+    <h3 class="text-center pt-5" id="R_t">BOOK NOW</h3>
+    <div class="row">
+        <div class="col-lg-12 col-md-6">
+            <div class="book_f text-center col-lg-12 col-md-6">
+                <form action="" class="mt-5 fomm bg-info p-5">
+                    <label for="select">Number of people</label>
+                    <select class=" custom-select custom-select-md mb-3 name" id="Number">
+        <option selected value="0">Enter the number</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+      </select>
+
+                    <label for="select">Age</label>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="Age">
+      <option selected value="0">Enter the age range</option>
+      <option value="200">Kids--15 years and below</option>
+      <option value="500">Adult -- 18 years and above</option>
+      <option value="800"> Aged ---40 years and above</option>
+    </select>
+                    <label for="crust">Choose your Floaters</label>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="Floaters">
+          <option selected value="0">Select Floaters</option>
+        <option value="200">Aqua</option>
+        <option value="350">Swimline Giant</option>
+        <option value="250">Jasonwell Giant</option>
+        <option value="200">LetsFunny avocado</option>
+        <option value="300">IntexRiver run</option>
+      </select>
+
+                    <label for="crust">Sanitaries</label>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="Sanitaries">
+          <option selected value="0">Make your choice</option>
+        <option value="20">Slippers</option>
+        <option value="100">Towel</option>
+        <option value="70">Soap</option>
+        <option value="50">Scrubber</option>
+        <option value="100">Feet scruber</option>
+      </select>
+
+
+                    <button type="submit" class="btn btn-secondary bg-warning book">submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--end-->
+
+    <div class="row pt-5">
+
+        <table class="table table-dark text-center col-lg-12 col-md-6">
+            <thead>
+                <tr>
+                    <th scope="col">NUMBER</th>
+                    <th scope="col">AGE</th>
+                    <th scope="col">FLOATERS</th>
+                    <th scope="col">SANITARIES</th>
+                    <th scope="col">CHARGES</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+    <!-- <div class="row"> -->
+    <!-- <div class="col-lg-12 col-md-6"> -->
+    <button class="btn bg-warning mt-5" id="final"><strong>CHARGES</strong></button>
+
+    <p class="pt-2"><strong>YOUR CHARGES ARE :<p id="price"> </p></strong></p>
+
+    <!-- </div> -->
+
+    <!-- </div> -->
+
+
+    <!--END-->
+    <h3 class="text-center contact_h">CONTACT US</h3>
+    <div class="row contact">
+
+        <div class="col-lg-6 col-md-6 p-3 text-center">
+            <img src="images\santacruz.png" width="400px" alt="">
+
+            <p>Use the map to locate the pools you wanna visit today!</p>
+        </div>
+
+        <div class="col-lg-6 col-md-6 p-3">
+            <h4>More Info</h4>
+            <p>
+                For those people who what to experience another level of swimming in the city try us now!<br> We take our commitness to make your experiences here memorable<br> we are located at Santa Cruz sports Center<br> E-mail us at anasoc@gmail.com
+            </p>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-6 footer text-center pt-5">
+            <a href="#"><i class="fab fa-instagram" style="font-size:30px; color:gray;"></i></a>
+            <a href="#"><i class="fab fa-facebook-f" style="font-size: 30px; color: gray;"></i></a>
+            <a href="#"> <i class="fas fa-envelope" style="font-size: 30px; color: gray;"></i></a>
+            <a href="#twitter"><i class="fab fa-twitter" style="font-size: 30px; color: gray;"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=+50683510702&amp;text=Estoy interesado en tomar tu solicitud de informacion sobre ANASAC" class=" fab fa-whatsapp-square fa-2x"></a>
+
+        </div>
+    </div>
+    </div>
+    <script src="css\javascript\app.js"></script>
+</body>
+
+</html>
