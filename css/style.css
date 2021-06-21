@@ -522,3 +522,23 @@ a img {
         text-align: left;
     }
 }
+
+.redes-sociales {
+    opacity: 1;
+    position: fixed;
+    top: 150px;
+    right: 0;
+    cursor: pointer;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition: opacity .5s, background-color .5s;
+    -webkit-transition: opacity .5s, background-color .5s;
+}
+
+.redes-sociales img {
+    width: 40px !important;
+}
+
+.redes-sociales .list-group-item {
+    padding: 8px 9px !important;
+}
