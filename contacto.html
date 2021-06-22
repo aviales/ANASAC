@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
     <!-- Script principal -->
     <script src="..\script\forms.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css\style.css">
 
 
     <title>ANASAC</title>
@@ -20,43 +23,43 @@
 
 
 <body>
-    <header class="fixed-top">
-        <nav class="navbar  navbar-expand-sm bg-dark navbar-dark">
-            <ul class="navbar-nav container">
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">ANASAC</a>
+            <ul class="nav-menu ">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">INICIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="natacion.html">QUE ES LA NATACION?</a>
+                    <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="beneficios.html">BENEFICIOS DE LA NATACION</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ESTILOS</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="crawl.html">CRAWL</a>
-                        <a class="dropdown-item" href="pecho.html">PECHO</a>
-                        <a class="dropdown-item" href="espalda.html">ESPALDA</a>
-                        <a class="dropdown-item" href="mariposa.html">MARIPOSA</a>
-                    </div>
+                    <a href="beneficios.html" class="nav-link">Beneficios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="competencias.html">VIDEOS DE COMPETENCIAS</a>
+                    <a href="crawl.html" class="nav-link">Craw</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">GALERIA DE IMAGENES</a>
+                    <a href="espalda.html" class="nav-link">Espalda</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">CONTACTO</a>
+                <li class="nav-item">
+                    <a href="mariposa.html" class="nav-link">Mariposa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pecho.html" class="nav-link">Pecho</a>
+                </li>
+                <li class="nav-item">
+                    <a href="natacion.html" class="nav-link">Natacion</a>
                 </li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
     <div class="container-fluid ">
         <div class=" width:auto max-w-xs ">
-            <form id="form " class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 ">
+            <form id="form " class="bg-white shadow-md rounded px-8 pt-10 pb-6 mb-9 ">
                 <div class="mb-4 ">
                     <label class="block text-gray-700 text-sm font-bold mb-2 " for="name ">
                     Nombre
@@ -126,6 +129,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="css\javascript\topnav.js "></script>
     <!-- Código de instalación Cliengo para Avialesarrieta@gmail.com -->
     <!-- Código de instalación Cliengo para https://aviales.github.io/ANASAC/ -->
     <!-- Código de instalación Cliengo para https://aviales.github.io/ANASAC/ -->
