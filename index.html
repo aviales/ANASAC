@@ -22,47 +22,30 @@
             <img src="images/loader.gif" alt="#" />
         </div>
     </div>
-    <header class="sticky-top">
-        <div class="topnav" id="myTopnav">
-            <nav class="navbar  navbar-expand-sm bg-transparent navbar-dark">
-                <ul class="navbar-nav container">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="natacion.html">QUE ES LA NATACION?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="beneficios.html">BENEFICIOS DE LA NATACION</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ESTILOS</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="crawl.html">CRAWL</a>
-                            <a class="dropdown-item" href="pecho.html">PECHO</a>
-                            <a class="dropdown-item" href="espalda.html">ESPALDA</a>
-                            <a class="dropdown-item" href="mariposa.html">MARIPOSA</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">ANASAC.</a>
+            <ul class="nav-menu ">
+                <li class="nav-item">
+                    <a href="natacion.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
 
 
     <main id="showcase-1">
-        <div class="container-fluid main-menu-wrap ">
-            <nav class="row main-menu">
-                <a class="col-3" href="competencias.html">Competitions</a>
-                <a class="col-3" href="about.html">About</a>
-                <a class="col-3" href="events.html">Next Events</a>
-                <a class="col-3" href="galeria.html">Gallery</a>
-            </nav>
-        </div>
         <div class="content">
             <img src="images/dubs-logo.png" class="logo" alt="the sea">
             <h1 class="title">
@@ -81,9 +64,11 @@
     <section class="services bg-dark">
         <div class="container-fluid center-index row">
             <div class="col-md-4 col-sm-12 grid-1">
-                <i class="fas fa-info-circle fa-4x iconic"></i>
-                <h3><a href="about.html">About</a></h3>
-                <p class="center">Read about the benifits of Swimming </p>
+                <i class="fas fa-image fa-4x iconic"></i>
+                <h3>
+                    <a href="galeria.html">Gallery</a>
+                </h3>
+                <p class="center">look all Galleries</p>
             </div>
             <div class=" col-md-4 col-sm-12  grid-1">
                 <i class="fas fa-calendar-alt fa-4x iconic"></i>
@@ -91,9 +76,9 @@
                 <p class="center">View up and coming events </p>
             </div>
             <div class="col-md-4 col-sm-12  grid-1">
-                <i class="fas fa-book fa-4x iconic"></i>
-                <h3><a href="book.html">booking</a></h3>
-                <p class="center">book your lessons</p>
+                <i class="fas fa-award fa-4x iconic"></i>
+                <h3><a href="competencias.html">Competitions</a></h3>
+                <p class="center">Look all Competitions</p>
             </div>
         </div>
     </section>
@@ -106,8 +91,8 @@
                     <i class="fas fa-swimmer fa-5x"> </i>
                 </div>
                 <div>
-                    <h3>About Us </h3>
-                    <p class="center">
+                    <h3><a class="nav-link" style="color: black;" href="about.html">About Us</a></h3>
+                    <p class=" text-center">
                         ANASAC 2021
                     </p>
                 </div>
