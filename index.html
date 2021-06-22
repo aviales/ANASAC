@@ -12,39 +12,48 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://cdnjs.com/libraries/izimodal" rel="javascript">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css\pogo-slider.min.css" />
 </head>
-<header class="sticky-top">
-    <div class="topnav" id="myTopnav">
-        <nav class="navbar  navbar-expand-sm bg-transparent navbar-dark">
-            <ul class="navbar-nav container">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="natacion.html">QUE ES LA NATACION?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="beneficios.html">BENEFICIOS DE LA NATACION</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ESTILOS</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="crawl.html">CRAWL</a>
-                        <a class="dropdown-item" href="pecho.html">PECHO</a>
-                        <a class="dropdown-item" href="espalda.html">ESPALDA</a>
-                        <a class="dropdown-item" href="mariposa.html">MARIPOSA</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-
-</header>
 
 <body>
+    <div id="preloader">
+        <div class="loader">
+            <img src="images/loader.gif" alt="#" />
+        </div>
+    </div>
+    <header class="sticky-top">
+        <div class="topnav" id="myTopnav">
+            <nav class="navbar  navbar-expand-sm bg-transparent navbar-dark">
+                <ul class="navbar-nav container">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="natacion.html">QUE ES LA NATACION?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="beneficios.html">BENEFICIOS DE LA NATACION</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ESTILOS</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="crawl.html">CRAWL</a>
+                            <a class="dropdown-item" href="pecho.html">PECHO</a>
+                            <a class="dropdown-item" href="espalda.html">ESPALDA</a>
+                            <a class="dropdown-item" href="mariposa.html">MARIPOSA</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+
     <main id="showcase-1">
         <div class="container-fluid main-menu-wrap ">
             <nav class="row main-menu">
@@ -184,7 +193,10 @@
 
         </ul>
     </div>
+    <script src="css\javascript\jquery.min.js "></script>
+    <script src="css\javascript\popper.min.js "></script>
     <script src="css\javascript\topnav.js "></script>
+    <script src="css\javascript\images-loded.min.js "></script>
 
 </body>
 
